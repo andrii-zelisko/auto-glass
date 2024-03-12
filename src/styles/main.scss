@@ -1,0 +1,15 @@
+$dark-blue: #004d99; // Dark Teal
+$medium-blue: #007acc;
+$light-blue: #66a3ff; // Yellow
+$red-color: #ff3333;
+$accent-color: #808080; // Dark Grey
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff; // White background
+    color: $accent-color; // Dark Grey text color
+}
+.footer {
+    background-color: #0d396a; // Yellow footer background
+    color: #fff; // Dark Grey text color
+    padding: 2rem;
+}
