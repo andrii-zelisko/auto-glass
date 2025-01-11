@@ -1,12 +1,12 @@
-import React from "react";
-import "./App.scss";
-import Header from './components/Header';
-import Navigation from "./components/Navigation";
-import AboutUs from "./components/AboutUs";
-import Gallery from './components/Gallery';
-import Providers from "./components/Providers";
-import Contacts from "./components/Contacts";
-import Footer from './components/Footer';
+import React from 'react'
+import './App.scss'
+import Header from './components/Header'
+import Navigation from './components/Navigation'
+import AboutUs from './components/AboutUs'
+import Gallery from './components/Gallery'
+import Providers from './components/Providers'
+import Contacts from './components/Contacts'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Contacts />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
