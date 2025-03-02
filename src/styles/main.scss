@@ -3,15 +3,25 @@ $medium-blue: #007acc;
 $light-blue: #66a3ff;
 $red-color: #ff3333;
 $accent-color: #808080;
+$white-color: #ffffff;
 
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  color: $accent-color;
+  color: $dark-blue;
+  font-size: 14px;
+}
+
+.header {
+  background: $dark-blue;
+  color: $white-color;
+  text-align: center;
+  line-height: 1rem;
 }
 
 .footer {
-  background-color: #0d396a;
-  color: #ffffff;
-  padding: 2rem;
+  background: $dark-blue;
+  color: $white-color;
+  text-align: center;
+  line-height: 1rem;
 }
