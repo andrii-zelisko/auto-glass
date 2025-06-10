@@ -15,8 +15,41 @@ body {
 .header {
   background: $dark-blue;
   color: $white-color;
+  padding: 1rem;
   text-align: center;
   line-height: 1rem;
+}
+
+.section {
+  padding: 20px;
+  border: 1px solid $medium-blue;
+  border-radius: 5px;
+  .title {
+    color: $dark-blue;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .description {
+    color: $accent-color;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .card {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid $light-blue;
+    border-radius: 5px;
+    &-description {
+      color: $accent-color;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    &-country {
+      color: $red-color;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .footer {

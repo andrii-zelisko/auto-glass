@@ -4,76 +4,88 @@
     "data": "Autoglass Zelena is a company that has been operating in the market for over 10 years. We are engaged in the sale and installation of car windows. We have a wide range of car windows for all car brands. We provide a guarantee for all our products and services. We work with both individuals and legal entities. We are always happy to help you!"
   },
   "manufacturers": {
-    "name": "Manufacturers",
+    "name": "Manufactures",
+    "description": "We work with the best manufacturers of car windows. We have been cooperating with them for many years. We guarantee the quality of the products we offer. We have a wide range of car windows for all car brands.",
     "data": [
       {
         "key": "Pilkington",
         "name": "Pilkington",
         "site": "https://www.pilkington.com/",
         "description": "Pilkington is a British glass manufacturer. It is a subsidiary of the NSG Group. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "United Kingdom"
+        "country": "United Kingdom",
+        "logo": "https://www.pilkington.com/-/media/pilkington/images/logos/pilkington-logo.png"
       },
       {
         "key": "Sekurit",
         "name": "Sekurit",
         "site": "https://www.saint-gobain-autover.com/",
         "description": "Sekurit is a French glass manufacturer. It is a subsidiary of the Saint-Gobain Group. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "France"
+        "country": "France",
+        "logo": "https://www.saint-gobain-autover.com/-/media/sgav/images/logo.png"
       },
       {
         "key": "Guardian",
         "name": "Guardian",
         "site": "https://www.guardian.com/",
         "description": "Guardian is an American glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "United States"
+        "country": "United States",
+        "logo": "https://www.guardian.com/-/media/guardian/images/logo.png"
       },
       {
         "key": "Fuyao",
         "name": "Fuyao",
         "site": "https://www.fuyaogroup.com/",
         "description": "Fuyao is a Chinese glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "China"
+        "country": "China",
+        "logo": "https://www.fuyaogroup.com/-/media/fuyao/images/logo.png"
       },
       {
         "key": "Xinyi",
         "name": "Xinyi",
         "site": "https://www.xinyiglass.com/",
         "description": "Xinyi is a Chinese glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "China"
+        "country": "China",
+        "logo": "https://www.xinyiglass.com/-/media/xinyi/images/logo.png"
       },
       {
         "key": "Saint-Gobain",
         "name": "Saint-Gobain",
         "site": "https://www.saint-gobain.com/",
         "description": "Saint-Gobain is a French glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "France"
+        "country": "France",
+        "logo": "https://www.saint-gobain.com/-/media/saint-gobain/images/logo.png"
       },
       {
         "key": "Benson",
         "name": "Benson",
         "site": "https://www.benson.com/",
-        "description": "Benson is a British glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows."
+        "description": "Benson is a British glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
+        "country": "United Kingdom",
+        "logo": "https://www.benson.com/-/media/benson/images/logo.png"
       },
       {
         "key": "Ficosa",
         "name": "Ficosa",
         "site": "https://www.ficosa.com/",
         "description": "Ficosa is a Spanish glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "Spain"
+        "country": "Spain",
+        "logo": "https://www.ficosa.com/-/media/ficosa/images/logo.png"
       },
       {
         "key": "AGC",
         "name": "AGC",
         "site": "https://www.agc.com/",
         "description": "AGC is a Japanese glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "Japan"
+        "country": "Japan",
+        "logo": "https://www.agc.com/-/media/agc/images/logo.png"
       },
       {
         "key": "Vitro",
         "name": "Vitro",
         "site": "https://www.vitro.com/",
         "description": "Vitro is a Mexican glass manufacturer. It is one of the leading manufacturers of glass for the automotive industry. The company produces a wide range of glass products for cars, including windshields, side windows, and rear windows.",
-        "country": "Mexico"
+        "country": "Mexico",
+        "logo": "https://www.vitro.com/-/media/vitro/images/logo.png"
       }
     ]
   },
@@ -170,14 +182,10 @@
     ]
   },
   "workSchedule": {
-    "name": "Work schedule",
+    "title": "Work schedule",
     "data": {
-      "monday": "09:00 - 18:00",
-      "tuesday": "09:00 - 18:00",
-      "wednesday": "09:00 - 18:00",
-      "thursday": "09:00 - 18:00",
-      "friday": "09:00 - 18:00",
-      "saturday": "day off"
+      "Mon - Fri": "09:00 - 18:00",
+      "Sat - Sun": "Days off"
     }
   }
 }
