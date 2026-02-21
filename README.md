@@ -4,7 +4,6 @@ Autoglass Zelena is a React-based web application for a specialized service in t
 
 ## Table of Contents
 - [Installation](#installation)
-- [File Structure](#file-structure)
 - [Technologies Used](#technologies-used)
 
 ---
@@ -30,44 +29,6 @@ Follow these steps to set up the project locally:
    ```bash
    npm run build
    ```
-
-## File Structure
-project-root/
-├── public/                     # Static files
-│   ├── index.html              # Main HTML file
-│   ├── favicon.ico             # Favicon
-│   └── assets/                 # Static assets (images, fonts, etc.)
-├── src/                        # Source code
-│   ├── component/              # Reusable components
-│   │   ├── Navbar/             # Navbar component
-│   │   ├── Section/            # Section wrapper component
-│   │   └── Footer/             # Footer component
-│   ├── pages/                  # Page-level components
-│   │   ├── Hero.jsx            # Hero section
-│   │   ├── About.jsx           # About page
-│   │   ├── Services.jsx        # Services page
-│   │   ├── Advantages.jsx      # Advantages page
-│   │   ├── Companies.jsx       # Companies page
-│   │   ├── Gallery.jsx         # Gallery page
-│   │   └── Contact.jsx         # Contact page
-│   ├── styles/                 # Global and component-specific styles
-│   │   ├── base/               # Base styles (variables, mixins, resets)
-│   │   ├── components/         # Component-specific styles
-│   │   ├── layouts/            # Layout-specific styles
-│   │   ├── pages/              # Page-specific styles
-│   │   ├── fonts.scss          # Font imports
-│   │   ├── app.scss            # Main global styles
-│   │   └── index.scss          # Entry point for styles
-│   ├── store.js                # Centralized data store
-│   ├── theme/                  # MUI theme configuration
-│   │   └── theme.js            # Custom Material-UI theme
-│   ├── App.js                  # Main app component
-│   ├── index.js                # Entry point
-│   └── reportWebVitals.js      # Performance reporting
-├── .gitignore                  # Git ignore file
-├── package.json                # NPM dependencies and scripts
-├── README.md                   # Project documentation
-└── yarn.lock / package-lock.json # Dependency lock file
 
 ## Technologies Used
 React: Frontend library for building user interfaces.
