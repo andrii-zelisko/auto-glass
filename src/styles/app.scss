@@ -1,15 +1,21 @@
-$dark-blue: #004d99;
-$medium-blue: #007acc;
-$light-blue: #66a3ff;
-$red-color: #ff3333;
-$accent-color: #808080;
-$white-color: #ffffff;
+@import "base/_variables";
+@import "base/_fonts";
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Consolas', sans-serif;
   background-color: #ffffff;
   color: $dark-blue;
   font-size: 14px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: $red-color;
+  .logo-name {
+    font-weight: bold;
+  }
 }
 
 .header {
