@@ -25,7 +25,7 @@ export default function Services() {
               <CardContent>
                 <Box
                   sx={{
-                    bgcolor: "secondary.main",
+                    backgroundColor: "secondary.main",
                     width: 70,
                     height: 70,
                     borderRadius: "50%",

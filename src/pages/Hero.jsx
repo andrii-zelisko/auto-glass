@@ -1,5 +1,5 @@
 import { Box, Typography, Button, Container } from "@mui/material";
-import heroImage from "../assets/glass_repair.png";
+import heroImage from "../assets/brands/glass_repair.png";
 
 export default function Hero() {
   return (

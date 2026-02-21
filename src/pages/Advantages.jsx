@@ -27,14 +27,14 @@ export default function Advantages() {
                     width: 60,
                     height: 60,
                     borderRadius: "50%",
-                    bgcolor: "primary.main",
+                    backgroundColor: "primary.main",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     mb: 2
                   }}
                 >
-                  <Icon sx={{ color: "white", fontSize: 32 }} />
+                  <Icon sx={{ backgroundColor: "reds", color: "white", fontSize: 32 }} />
                 </Box>
 
                 <Typography variant="h6">

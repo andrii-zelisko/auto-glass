@@ -9,13 +9,19 @@ import TimerIcon from "@mui/icons-material/Timer";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import SavingsIcon from "@mui/icons-material/Savings";
 
-import Pilkington from "../assets/pilkington.png";
-import SaintGobain from "../assets/saint_gobain.jpeg";
-import Guardian from "../assets/guardian_glass.jpeg";
-import AGC from "../assets/agc.png";
-import Fuyao from "../assets/fuyao_glass.png";
-import XYG from "../assets/xyg.jpg";
+import Pilkington from "../assets/brands/pilkington.png";
+import SaintGobain from "../assets/brands/saint_gobain.jpeg";
+import Guardian from "../assets/brands/guardian_glass.jpeg";
+import AGC from "../assets/brands/agc.png";
+import Fuyao from "../assets/brands/fuyao_glass.png";
+import XYG from "../assets/brands/xyg.jpg";
 
+import img1 from "../assets/images1.jpeg";
+import img2 from "../assets/images2.jpeg";
+import img3 from "../assets/images3.jpeg";
+import img4 from "../assets/images4.jpeg";
+import img5 from "../assets/images5.jpeg";
+import img6 from "../assets/images6.jpeg";
 
 export const services = [
   {
@@ -69,12 +75,7 @@ export const advantages = [
 ];
 
 export const galleryImages = [
-  "/images/work1.jpg",
-  "/images/work2.jpg",
-  "/images/work3.jpg",
-  "/images/work4.jpg",
-  "/images/work5.jpg",
-  "/images/work6.jpg"
+  img1, img2, img3, img4, img5, img6
 ];
 
 export const glassCompanies = [
@@ -88,7 +89,7 @@ export const glassCompanies = [
     name: "Saint-Gobain Sekurit",
     image: SaintGobain,
     description: "Європейський лідер у виробництві OEM автоскла.",
-    url: "https://www.sekurit.com"
+    url: "https://www.saint-gobain-sekurit.com/"
   },
   {
     name: "Guardian Glass",
@@ -112,6 +113,6 @@ export const glassCompanies = [
     name: "XYG",
     image: XYG,
     description: "Китайський виробник автоскла міжнародного рівня.",
-    url: "https://www.xyg.cn"
+    url: "https://www.xinyiglass.com/en/"
   }
 ];
