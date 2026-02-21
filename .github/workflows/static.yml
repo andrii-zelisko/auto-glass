@@ -31,5 +31,10 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Configure Git
+        run: |
+          git config user.name "andrii-zelisko"
+          git config user.email "andrii.zelisko@gmail.com"
+
       - name: Deploy to GitHub Pages
         run: npm run deploy
