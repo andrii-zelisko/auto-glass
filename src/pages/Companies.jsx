@@ -13,7 +13,7 @@ export default function GlassCompanies() {
   return (
     <Grid container spacing={4} sx={{ mt: 2 }}>
       {glassCompanies.map((company, i) => (
-        <Grid item xs={12} sm={6} md={4} key={i}>
+        <Grid item size={{ xs:12, sm:6, md:4 }} key={i}>
           <Card sx={{ height: "100%", display: "flex", flexDirection: "column", borderRadius: 3 }}>
 
             <CardMedia

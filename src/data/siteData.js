@@ -9,6 +9,14 @@ import TimerIcon from "@mui/icons-material/Timer";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import SavingsIcon from "@mui/icons-material/Savings";
 
+import Pilkington from "../assets/pilkington.png";
+import SaintGobain from "../assets/saint_gobain.jpeg";
+import Guardian from "../assets/guardian_glass.jpeg";
+import AGC from "../assets/agc.png";
+import Fuyao from "../assets/fuyao_glass.png";
+import XYG from "../assets/xyg.jpg";
+
+
 export const services = [
   {
     title: "Заміна автоскла",
@@ -72,37 +80,37 @@ export const galleryImages = [
 export const glassCompanies = [
   {
     name: "Pilkington",
-    image: "/brands/pilkington.png",
+    image: Pilkington,
     description: "Світовий виробник автомобільного та архітектурного скла.",
     url: "https://www.pilkington.com"
   },
   {
     name: "Saint-Gobain Sekurit",
-    image: "/brands/sekurit.png",
+    image: SaintGobain,
     description: "Європейський лідер у виробництві OEM автоскла.",
     url: "https://www.sekurit.com"
   },
   {
     name: "Guardian Glass",
-    image: "/brands/guardian.png",
+    image: Guardian,
     description: "Інноваційні рішення скла для авто та будівництва.",
     url: "https://www.guardianglass.com"
   },
   {
     name: "AGC Automotive",
-    image: "/brands/agc.png",
+    image: AGC,
     description: "Один із найбільших світових виробників автоскла.",
     url: "https://www.agc-automotive.com"
   },
   {
     name: "Fuyao Glass",
-    image: "/brands/fuyao.png",
+    image: Fuyao,
     description: "Глобальний постачальник скла для автовиробників.",
     url: "https://www.fuyaogroup.com"
   },
   {
     name: "XYG",
-    image: "/brands/xyg.png",
+    image: XYG,
     description: "Китайський виробник автоскла міжнародного рівня.",
     url: "https://www.xyg.cn"
   }

@@ -3,31 +3,28 @@ import { Grid, Typography, Box, Paper } from "@mui/material";
 export default function About() {
   return (
     <Box>
-
-      {/* Main Description */}
-      <Typography paragraph>
+      <Typography component={"p"}>
         <strong>Автоскло Зелена</strong> — це спеціалізований сервіс із продажу,
         встановлення та ремонту автомобільного скла для всіх марок автомобілів.
         Ми працюємо на ринку автоскла вже багато років і за цей час здобули довіру
         клієнтів завдяки професійному підходу, якісним матеріалам та сучасному обладнанню.
       </Typography>
 
-      <Typography paragraph>
+      <Typography component={"p"}>
         Наша команда складається з кваліфікованих майстрів, які регулярно проходять
         навчання та підвищують свою кваліфікацію. Ми використовуємо тільки сертифіковане
         скло та витратні матеріали від перевірених виробників, що гарантує довговічність
         та безпечну експлуатацію автомобіля після встановлення.
       </Typography>
 
-      <Typography paragraph>
+      <Typography component={"p"}>
         Ми обслуговуємо як приватних клієнтів, так і корпоративні автопарки,
         забезпечуючи швидке виконання робіт, точність монтажу та індивідуальний підхід
         до кожного замовлення.
       </Typography>
 
-      {/* Values Block */}
       <Grid container spacing={3} sx={{ mt: 2 }}>
-        <Grid item xs={12} md={4}>
+        <Grid item size={{ xs: 12, md: 4 }}>
           <Paper sx={{ p: 3, borderRadius: 3 }}>
             <Typography variant="h6" gutterBottom>
               Наша місія
@@ -39,7 +36,7 @@ export default function About() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={4}>
+        <Grid item size={{ xs: 12, md: 4 }}>
           <Paper sx={{ p: 3, borderRadius: 3 }}>
             <Typography variant="h6" gutterBottom>
               Наш підхід
@@ -51,7 +48,7 @@ export default function About() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} md={4}>
+        <Grid item size={{ xs: 12, md: 4 }}>
           <Paper sx={{ p: 3, borderRadius: 3 }}>
             <Typography variant="h6" gutterBottom>
               Наша мета

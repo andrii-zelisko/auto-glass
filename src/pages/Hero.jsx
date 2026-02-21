@@ -1,8 +1,17 @@
 import { Box, Typography, Button, Container } from "@mui/material";
+import heroImage from "../assets/glass_repair.png";
 
 export default function Hero() {
   return (
-    <Box sx={{ bgcolor: "primary.main", color: "white", py: 10, textAlign: "center" }}>
+    <Box sx={{
+      backgroundColor: "primary.main",
+      color: "white",
+      py: 10,
+      textAlign: "center",
+      backgroundImage: `url(${heroImage})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}>
       <Container>
         <Typography variant="h3">Автоскло Зелена</Typography>
 

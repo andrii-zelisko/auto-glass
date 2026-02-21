@@ -8,7 +8,7 @@ export default function Advantages() {
         const Icon = item.icon;
 
         return (
-          <Grid item xs={12} sm={6} md={4} key={i}>
+          <Grid item size={{ xs:12, sm:6, md:4 }} key={i}>
             <Card
               sx={{
                 height: "100%",
