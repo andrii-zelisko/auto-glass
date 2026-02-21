@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/auto-glass/static/js/main.87eb10ae.js",
+    "static/media/glass_repair.png": "/auto-glass/static/media/glass_repair.5b14c8db655a3edbc95f.png",
+    "static/media/images5.jpeg": "/auto-glass/static/media/images5.50b4e51dd2f4a97a4e49.jpeg",
+    "static/media/images2.jpeg": "/auto-glass/static/media/images2.28af67e4f744d52b71b6.jpeg",
+    "static/media/images3.jpeg": "/auto-glass/static/media/images3.44015ec997a7472ae9a0.jpeg",
+    "static/media/images6.jpeg": "/auto-glass/static/media/images6.20300fa3b81d9a36f4c5.jpeg",
+    "static/media/images4.jpeg": "/auto-glass/static/media/images4.3b991d399673775a3834.jpeg",
+    "static/media/images1.jpeg": "/auto-glass/static/media/images1.fd8c7651e3a77aa3477d.jpeg",
+    "static/media/xyg.jpg": "/auto-glass/static/media/xyg.bd33277581ca08cc738e.jpg",
+    "static/media/agc.png": "/auto-glass/static/media/agc.1e4748c3c3ec1e49e5d3.png",
+    "index.html": "/auto-glass/index.html",
+    "main.87eb10ae.js.map": "/auto-glass/static/js/main.87eb10ae.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.87eb10ae.js"
+  ]
+}
