@@ -6,7 +6,7 @@ export default function Hero() {
     <Box sx={{
       backgroundColor: "primary.main",
       color: "white",
-      py: 10,
+      py: 20,
       textAlign: "center",
       backgroundImage: `url(${heroImage})`,
       backgroundSize: "cover",
