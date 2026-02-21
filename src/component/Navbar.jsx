@@ -6,6 +6,7 @@ import { useTheme, useMediaQuery } from "@mui/material";
 export default function Navbar() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const isTablet = useMediaQuery(theme.breakpoints.between("sm", "md"));
   const [anchorEl, setAnchorEl] = useState(null);
 
   const handleMenuOpen = (event) => {
@@ -20,7 +21,7 @@ export default function Navbar() {
     <AppBar position="sticky">
       <Toolbar sx={{ justifyContent: "space-between" }}>
         <Typography variant="h6">Автоскло Зелена</Typography>
-        {isMobile ? (
+        {isMobile || isTablet ? (
           <>
             <IconButton color="inherit" onClick={handleMenuOpen}>
               <MenuIcon />
