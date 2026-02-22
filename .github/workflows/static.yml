@@ -28,8 +28,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install gh-pages
-        run: npm install -g gh-pages
+      - name: Install master
+        run: npm install -g master
 
       - name: Build project
         run: npm run build
@@ -42,4 +42,4 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx gh-pages -d build -r https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/andrii-zelisko/auto-glass.git
+        run: npx master -d build -r https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/andrii-zelisko/auto-glass.git
