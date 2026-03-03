@@ -1,4 +1,4 @@
-import { Box, Typography, Button, Container } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 import heroImage from "../assets/brands/glass_repair.png";
 
 export default function Hero() {
@@ -6,13 +6,12 @@ export default function Hero() {
     <Box sx={{
       backgroundColor: "primary.main",
       color: "white",
-      py: 20,
       textAlign: "center",
       backgroundImage: `url(${heroImage})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
     }}>
-      <Container>
+      <Box sx={{ backgroundColor: "rgba(0, 0, 0, 0.5)", p: 4, py: 20, borderRadius: 2 }}>
         <Typography variant="h3">Автоскло Зелена</Typography>
 
         <Typography variant="h6" sx={{ opacity: 0.9, mt: 2 }}>
@@ -22,7 +21,7 @@ export default function Hero() {
         <Button variant="contained" color="secondary" href="#contact" sx={{ mt: 4 }}>
           Зв’язатися
         </Button>
-      </Container>
+      </Box>
     </Box>
   );
 }

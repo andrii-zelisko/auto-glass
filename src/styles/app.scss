@@ -8,6 +8,21 @@ body {
   font-size: 14px;
 }
 
+a {
+  font-weight: bold;
+  color: $dark-blue;
+  text-decoration: none;
+  :hover {
+    color: $medium-blue;
+  }
+  :active {
+    color: $light-blue;
+  }
+  :visited {
+    color: $accent-color;
+  }
+}
+
 .logo-container {
   display: flex;
   align-items: center;

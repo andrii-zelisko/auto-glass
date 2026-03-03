@@ -1,7 +1,6 @@
 import BuildIcon from "@mui/icons-material/Build";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import StorefrontIcon from "@mui/icons-material/Storefront";
-import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 import VerifiedIcon from "@mui/icons-material/Verified";
 import EngineeringIcon from "@mui/icons-material/Engineering";
@@ -9,7 +8,7 @@ import TimerIcon from "@mui/icons-material/Timer";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import SavingsIcon from "@mui/icons-material/Savings";
 
-import Pilkington from "../assets/brands/pilkington.png";
+import Pilkington from "../assets/brands/pilkington.jpg";
 import SaintGobain from "../assets/brands/saint_gobain.jpeg";
 import Guardian from "../assets/brands/guardian_glass.jpeg";
 import AGC from "../assets/brands/agc.png";
@@ -38,11 +37,6 @@ export const services = [
     title: "Продаж скла",
     icon: StorefrontIcon,
     text: "Широкий вибір автоскла для всіх марок авто від провідних світових виробників."
-  },
-  {
-    title: "Тонування скла",
-    icon: AutoAwesomeIcon,
-    text: "Професійне тонування з використанням якісних плівок, що захищають від сонця та підвищують комфорт."
   }
 ];
 
