@@ -12,7 +12,6 @@ import Pilkington from "../assets/brands/pilkington.jpg";
 import SaintGobain from "../assets/brands/saint_gobain.jpeg";
 import Guardian from "../assets/brands/guardian_glass.jpeg";
 import AGC from "../assets/brands/agc.png";
-import Fuyao from "../assets/brands/fuyao_glass.png";
 import XYG from "../assets/brands/xyg.jpg";
 
 import img1 from "../assets/images1.jpeg";
@@ -96,12 +95,6 @@ export const glassCompanies = [
     image: AGC,
     description: "Один із найбільших світових виробників автоскла.",
     url: "https://www.agc-automotive.com"
-  },
-  {
-    name: "Fuyao Glass",
-    image: Fuyao,
-    description: "Глобальний постачальник скла для автовиробників.",
-    url: "https://www.fuyaogroup.com"
   },
   {
     name: "XYG",
