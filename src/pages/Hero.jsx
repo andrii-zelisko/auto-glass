@@ -11,7 +11,7 @@ export default function Hero() {
       backgroundSize: "cover",
       backgroundPosition: "center",
     }}>
-      <Box sx={{ backgroundColor: "rgba(0, 0, 0, 0.5)", p: 4, py: 20, borderRadius: 2 }}>
+      <Box sx={{ backgroundColor: "rgba(0, 0, 0, 0.5)", p: 4, py: 20}}>
         <Typography variant="h3">Автоскло Зелена</Typography>
 
         <Typography variant="h6" sx={{ opacity: 0.9, mt: 2 }}>
