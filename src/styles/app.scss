@@ -1,5 +1,5 @@
-@import "base/_variables";
-@import "base/_fonts";
+@use "base/_variables" as *;
+@use "base/_fonts" as *;
 
 body {
   font-family: 'Consolas', sans-serif;
